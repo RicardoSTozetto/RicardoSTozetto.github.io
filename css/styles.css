@@ -126,7 +126,7 @@
 }
 
 .description {
-    max-width: 85%;
+    max-width: 100%;
     margin-bottom: 10px;
 }
 
@@ -141,18 +141,19 @@
     transition: .5s;
     margin: 25px 0;
     padding: 12px 10px;
-    width: 150px;
+    width: 200px;
     text-align: center;
     display: flex;
 }
 
 #btn-projects ion-icon, #btn-projects span {
-    flex: 1 1 0;
+    /*flex: 1 1 0;*/
+    padding-left: 30px;
 }
 
 #btn-projects io-icon {
-    font-size: 20px;
-    max-width: 20px;
+    font-size: 80px;
+    max-width: 80px;
 }
 
 #btn-projects:hover {
