@@ -52,16 +52,19 @@
 
 #bio-container h2 {
     margin-bottom: 25px;
+    font-size: 30px;
 }
 
-#bio-container-p {
+#bio-container p {
     margin-bottom: 20px;
+    font-size: 20px;
 }
 
 #bio-container #welcome-text {
     padding-top: 20px;
     padding-bottom: 20px;
     font-weight: bold;
+    font-size: 30px;
 }
 
 #bio-image {
